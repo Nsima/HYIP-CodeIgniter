@@ -16,4 +16,12 @@ _CodeIgniter 3.1.1_
 
 https://codeigniter.com/download
 
-## Day 3 - 
+## Day 3 - Plan the workflow of the project.
+_I decided to follow the workflow of a popular MMM, I then realized, that MMM was a peer to peer High Yield Investment Program, so this part of the work will continue changing till the end of this project_
+
+- An admin end
+- A user end
+
+## Day 4 - (A continuation of Day 3)
+
+- I had to rename the 'application' folder to 'public' (Just because I can)
