@@ -13,7 +13,7 @@
                     <div class="progress my-3" style="height:3px;">
                        <div class="progress-bar" style="width:100%"></div>
                     </div>
-                  <p class="mb-0 text-white small-font">Current Balance <span class="float-right">+4.2% <i class="zmdi zmdi-long-arrow-up"></i></span></p>
+                  <p class="mb-0 text-white small-font">Current Balance <span class="float-right"><button type="submit" class="btn-success"> Sell Coins </button></span></p>
                 </div>
             </div>
             <div class="col-12 col-lg-6 col-xl-3 border-light">
@@ -167,7 +167,7 @@
                      <th>Photo</th>
                      <th>Account</th>
                      <th>Amount</th>
-                     <th>Date</th>
+                     <th>Date Added</th>
                      <th>Progress</th>
                    </tr>
                    </thead>
