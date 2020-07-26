@@ -75,6 +75,7 @@ $route['support'] = 'User/support';
 $route['logout'] = 'User/logout';
 
 //Admin Routes
+// You can change the routes but remember to change the links in your views.
 $route['vita908/logout'] = 'Admin/logout';
 $route['vita908'] = 'Admin/index';
 $route['vita908/users'] = 'Admin/users';
