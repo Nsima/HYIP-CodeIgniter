@@ -9,13 +9,11 @@ class User extends CI_Controller {
 		if(!$this->session->name){
 			$this->session->set_flashdata('msg','<div class="alert alert-success text-center">Login to continue!!!</div>');
 			redirect(base_url('login'));
-		}
+		};
 	}
 	public function index()
 	{
 		$pagedata['title'] = 'Dashboard';
-		$pagedata['name'] = $this->session->name;
-		$pagedata['email'] = $this->session->email;
 		$this->load->view('includes/dashboard_header', $pagedata);
 		$this->load->view('user/dashboard');
 		$this->load->view('includes/dashboard_footer');
@@ -69,6 +67,11 @@ class User extends CI_Controller {
 		$this->load->view('includes/dashboard_header', $pagedata);
 		$this->load->view('user/support');
 		$this->load->view('includes/dashboard_footer');
+	}
+
+	public function getChart() {
+		$res = $this->db->get('chart')->result_array();
+		echo $res?json_encode($res):null;
 	}
 	public function logout()
 	{
