@@ -25,3 +25,11 @@ _I decided to follow the workflow of a popular MMM, I then realized, that MMM wa
 ## Day 4 - (A continuation of Day 3)
 
 - I had to rename the 'application' folder to 'public' (Just because I can)
+
+## Day 5 - 9 (Working on the functionality)
+
+- User registeration
+- Referral System
+- User buys "coin"
+- User waits for coin to yeild
+- User sells coin to another user (_and the cycle continues_)
