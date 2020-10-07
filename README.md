@@ -7,7 +7,7 @@ I got bored and decided to see how fast I could build a bit complicated web app 
 
 ## Day 1 -  I downloaded a free dashboard template design and decided to adjust to meet my needs
 _DashTreme Admin Template_
-https://codervent.com/downloads/free-dashtreme-admin-template/
+https://codervent.com/dashtreme-free/index.html
 
 ## Day 2 - Downloaded the CodeIgniter 3.1.1 Framework and broke the template into the framework
 _CodeIgniter 3.1.1_
